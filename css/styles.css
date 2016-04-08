@@ -1,0 +1,37 @@
+body {
+	background-color: #A9F5BC;
+	text-align: center;
+}
+
+@font-face {
+	font-family: inknut;
+	src: url("../font/inknut-antiqua/InknutAntiqua-Regular.ttf");
+}
+@font-face {
+	font-family: kaushan;
+	src: url("../font/kaushan-script/KaushanScript-Regular.otf");
+}
+
+h1 {
+	color: #F5F6CE;
+	font-family: kaushan;
+	text-shadow: 2px 2px orange;
+	font-size: 3em;
+}
+
+h2 {
+	color: #F5F6CE;
+	font-family: inknut;
+	text-shadow: 2px 2px orange;
+}
+
+h3 {
+	color: #F5F6CE;
+	font-family: inknut;
+	text-shadow: 2px 2px orange;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
