@@ -144,6 +144,16 @@ input[type=submit] {
 	border: none;
 	border: 2px solid #0174DF;
 }
+
+.bild {
+	text-align: center;
+	display: block;
+	padding-left: 13.5%;
+	padding-right: 13.5%;
+	padding-top: 3%;
+	height: 70%;
+	width: 70%;
+}
 	  
 
 
