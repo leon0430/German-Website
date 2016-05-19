@@ -58,9 +58,8 @@ button {
 	padding-left: 0;
 }
 
-ul {
+.menu {
 	background-color: #f2f2f2;
-	width: 100%;
 	padding-left: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -77,15 +76,15 @@ li {
 	margin-top: 0px;
 }
 
+li a:hover {
+	background-color: white;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
 	padding-right: 2.5%;
 	padding-left: 2.5%;
-}
-
-li a:hover {
-	background-color: white;
 }
 
 .pictures {
@@ -127,6 +126,7 @@ form {
 	text-align: left;
 	padding-left: 10%;
 	padding-top: 0px;
+	padding-bottom: 5%;
 	
 }
 
@@ -154,8 +154,44 @@ input[type=submit] {
 	height: 70%;
 	width: 70%;
 }
-	  
 
+.center {
+	text-align: center;
+	padding: 0px;
+	margin: 0px
+}
+
+.floatMe {
+	float: left;
+}
+
+.third {
+	width: 26%;
+	height: 300px;
+	border: 1px solid black;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-width:5px;	
+    border-style:dotted solid;
+    border-color: #f2f2f2;
+}
+
+.list {
+	font-family: inknut;
+	font-size: 1em;
+	background-color: #4da6ff;
+	display: block;
+	font-size: 1.1em;
+}
+
+#noPadding {
+	padding-left: 0px;
+}
+
+p {
+	font-size: 0.75em;
+	padding: 0px;
+}
 
 
 
