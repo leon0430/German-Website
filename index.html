@@ -4,33 +4,72 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src="javascript/myScript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script type="text/javascript" src="libraries/jqueryRotate.js"></script>
 </head>
 
-<h1><ul class="menu">
+<h1><ul class="menu" >
 	<a href="index.html">St. Mark's German!</a>
 </ul></h1>
 <!--!-->
 <ul class="menu">
 <li><a href="quizlet.html">Quizlet</a></li>
-<li><a href="dictionary.html">Other Websites</a></li>
+<li><a href="dictionary.html">Websites</a></li>
 <li><a href="workbook.html">Files</a></li>
 </ul>
 	<h2>Deutsch Homepage</h2>
 
-<img src="http://www.easyjet.com/en/holidays/shared/images/guides/germany.jpg" width="45%" height: "50%">
-
+<img class="imgPage" id="picView" src="pic/img0.jpg" width="755px" height="353px" style="opacity:1; transform: rotate(180); ">
 
 <a class="twitter-timeline" href="https://twitter.com/hashtag/germany" data-widget-id="730096431277740032">#germany Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+<div class="buttons">
+	<button class="buttonCSS" id= "bButton">Back</button>
+	<button class="buttonCSS" id= "fButton">Forward</button>
+</div>	
 <h3>Class Alerts</h3>
 <form>
  <br>
   <input type="text" name="info">
    <input class="button" type="submit" value="Submit">
 </form>
+<body>
+<!--
+<div id="mainBody">
+			<div class="floatIt" id="leftSide">
+				<ul class="side_ul">
+					<li class="side_li">
+						<a href="index.html">
+						<img class="side_img" src = "pic/icon3.png"/>
+						<span class="side_span">Home</span>
+					</a>
+					</li>
+					<li class="side_li">
+						<a href="quizlet.html">
+						<img class="side_img" src = "pic/icon2.png"/>
+						<span class="side_span">Quizlet</span>
+						</a>
+					</li>
+					<li class="side_li">
+						<a href="dictionary.html">
+						<img class="side_img" src = "pic/icon5.png"/>
+						<span class="side_span">Website</span>
+						</a>
+					</li>
+					<li class="side_li">
+						<a href="workbook.html">
+						<img class="side_img" src = "pic/icon4.png"/>
+						<span class="side_span">Files</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floatIt" id="rightSide">
+			</div>
 
+		</div>!-->
+<script type="text/javascript" src="javascript/myscript.js"></script>
+</body>
 <p>Created By Leon Shi</p>
 <p>leonshi@stmarksschool.org</p>
 </html>
