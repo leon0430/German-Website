@@ -15,9 +15,14 @@ body {
 	src: url("../font/kaushan-script/KaushanScript-Regular.otf");
 }
 
+@font-face {
+	font-family: raleway;
+	src: url("../font/raleway/Raleway-Regular.ttf");
+}
+
 h1 {
 	color: #2952a3;
-	font-family: kaushan;
+	font-family: inknut;
 	text-shadow: 2px 2px gray;
 	font-size: 5em;
 	padding: 0;
@@ -50,12 +55,6 @@ h4 {
 	margin-left: 10%;
 	text-align:left;
 	margin-top: 0px;
-}
-
-button {
-	margin-left: 10px;
-	display: block;
-	padding-left: 0;
 }
 
 .menu {
@@ -183,6 +182,12 @@ input[type=submit] {
 	display: block;
 	font-size: 1.1em;
 }
+.buttonCSS {
+	color: #0174DF;
+	background-color: white;
+	border: none;
+	border: 2px solid #0174DF;
+}
 
 #noPadding {
 	padding-left: 0px;
@@ -193,6 +198,88 @@ p {
 	padding: 0px;
 }
 
+.half {
+	width: 40%;
+	height: 240px;
+	border: 1px solid black;
+	margin-left: 4.5%;
+	margin-right: 4%;
+	border-width:5px;	
+    border-style:dotted solid;
+    border-color: #f2f2f2;
+    margin-bottom: 5%;
+}
+
+.imgPage {
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+.side_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.side_li{
+	margin: 0;
+	padding: 0;
+	font-family: barrio;
+	height: 64px;
+	line-height: 64px;
+
+}
+.side_span{
+	height: 64px;
+	line-height: 64px;
+	font-size: 40px;
+	color: #5A79A5;
+	
+}
+.side_span:hover{
+color: #FAF93C;
+}
+
+.side_img{
+	vertical-align: middle;
+	padding-right:40;
+	height: 60px;
+	width: 60px;
+}
+
+
+.floatIt{
+
+	float: left;
+	/* border: 2px solid blue; */
+	height: 500px;
+}
+
+#leftSide{
+	width: 64px;
+	border-radius: 0px 30px 30px 0px;
+
+	background-color: #6E6568;
+	margin: 0;
+}
+
+#rightSide{
+	width: 92%;
+	background-color: #EAD3A8;
+}
+
+#icon1{
+	list-style-image: url('pic/icon1.png');
+}
+
+.shiftLeft{
+	width: 40%;
+}
+
+.shiftRight{
+	width: 59%;
+}
 
 
 
