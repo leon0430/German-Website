@@ -22,7 +22,7 @@ function changePic() {
 $(document).ready(function(){
 
 	document.getElementById("picView").src = picList[whichPic];
-	setInterval(changePic, 6500);
+	setInterval(changePic, 1500);
 
 	fButton = document.getElementById("fButton");
 	bButton = document.getElementById("bButton");	
